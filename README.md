@@ -2,7 +2,8 @@
 
 Une application android utilisant retrofit.
 
-- JDK 17
+- Java version 17
+- CompileSdk 32
 
 
 
