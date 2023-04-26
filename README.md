@@ -2,6 +2,8 @@
 
 Une application android utilisant retrofit.
 
+- JDK 17
+
 
 
 Cette page contient un bouton qui permet d'acceder a la page de visualisation des CV.
