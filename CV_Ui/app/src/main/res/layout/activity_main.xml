@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/img9"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="170dp"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0.1in"
+                android:layout_marginEnd="0.1in"
+                android:layout_marginBottom="28dp"
+                android:text="@string/string_Acceuil"
+                android:textColor="#CFCBCB"
+                android:textSize="22dp"
+                tools:fontFamily="sans-serif" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0.1in"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="0.1in"
+                android:layout_marginBottom="4dp"
+                android:text="@string/string_message"
+                android:textColor="#CFCBCB"
+                android:textSize="14dp" />
+
+            <Button
+                android:id="@+id/btnPV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Visualiser les CV" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
